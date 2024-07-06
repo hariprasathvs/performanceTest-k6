@@ -1,0 +1,23 @@
+{
+  "name": "performance",
+  "version": "1.0.0",
+  "description": "Performance testing with k6.",
+  "main": "index.js",
+  "scripts": {
+    "test": "k6 run dist/bundle.js",
+    "build": "webpack"
+  },
+  "author": "harivengal5@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/k6": "^0.52.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.5.3",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "dependencies": {
+    "k6": "^0.0.0"
+  }
+}
